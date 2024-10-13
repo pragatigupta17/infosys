@@ -1,0 +1,181 @@
+.infosys{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width:100%;
+}
+.carrer ul{
+ list-style: none;  
+ display: flex; 
+ gap: 20px;
+ color: white;
+ margin-top: 20px;
+ padding-top: 20px;
+ font-size: large;
+ justify-content: space-between;
+}
+.icon ul{
+display:flex;
+gap: 20px;
+list-style: none;  
+color:white;
+margin-top: 20px; 
+margin-right: 40px;
+padding-top: 10px; 
+text-decoration: none;
+}
+/* .butterfly{
+    width:100%; 
+    height:700px;
+} */
+
+.ant{
+    width:100%;
+    height:700px;
+}
+.duck{
+    width:100%;
+    height:700px;
+}
+.next{
+    text-align: center;
+}
+ h1{
+    font-size:30px ;
+}
+.power{
+    color:rgb(153, 150, 150);
+}
+.pencil{
+    width:300px;
+    height: 300px;
+}
+.digital{
+    width: 400px;
+    height:600px;
+}
+.five{
+    display: flex;
+    align-items: center;
+    margin-left:250px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+}
+ .three{
+    display: flex;
+}
+.for{
+    display: flex;
+} 
+.five .one{
+background-image: url(/digital.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+height: 606px;
+width:400px;
+background-size: cover;
+font-size:10px;
+color:aliceblue;
+text-align: left;
+margin-left:20px ;
+}
+.five .one h1{
+    font-size: 30px;
+    margin-left:15px;
+    text-align: start;
+    
+    
+}
+.five .one h2{
+    font-size:large;
+
+    margin-left:15px;
+    text-align: start;
+    color:azure;
+
+}
+.four .fourone{
+    background-image: url(./pencil.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:300px;
+    color:darkgrey;
+    text-align: left;
+    margin-left:10px;
+}
+.four .fourone h1{
+font-size:30px;
+margin-left:10px;
+}
+.four .fourone h2{
+font-size:20px ;
+margin-left:10px;
+}
+.four .fourtwo{
+    background-image: url(./watch.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:300px;
+    color:whitesmoke;
+    text-align: left;
+    margin-left:10px;
+}
+.four .fourtwo h1{
+    font-size:25px;
+    margin-left:10px;
+    }
+    .four .fourtwo h2{
+    font-size:15px ;
+    margin-left:10px;
+    }
+.four .fourthree{
+    background-image: url(./meter.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:300px;
+    color:whitesmoke;
+    text-align: left;
+    margin-left:10px;
+}
+.four .fourthree h1{
+    font-size:25px;
+    margin-left:10px;
+    }
+    .four .fourthree h2{
+    font-size:15px ;
+    margin-left:10px;
+    }
+.four .fourfour{
+    background-image: url(./helmeat.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:300px;
+    color:whitesmoke;
+    text-align: left;
+    margin-left:10px;
+}
+.four .fourfour h1{
+    font-size:30px;
+    margin-left:10px;
+    }
+    .four .fourfour h2{
+    font-size:15px ;
+    margin-left:10px;
+    }
+#class .infosys .navigate img{
+    height:100px;
+    width:100px
+
+}
