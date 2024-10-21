@@ -6,15 +6,19 @@
 .header{
     width:100%;
 }
-.carrer ul{
+.carrer ul {
  list-style: none;  
  display: flex; 
+ flex-direction: row;
  gap: 20px;
  color: white;
- margin-top: 20px;
- padding-top: 20px;
+  margin-top: 20px;
+ padding-top: 20px; 
  font-size: large;
  justify-content: space-between;
+}
+.carrer ul li{
+    list-style: none;
 }
 .icon ul{
 display:flex;
@@ -178,4 +182,226 @@ margin-left:10px;
     height:100px;
     width:100px
 
+}
+.navigate{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.read h1{
+text-align: center;
+font-weight: 900px;
+font-size: xx-large;
+}
+.purpose{
+text-align: center;
+}
+.explor{
+    width: 100%;
+    height: 500px;
+}
+.invest{
+    text-align: center;
+    font-size: large;
+}
+.invest h1{
+    font-size: xx-large;
+}
+.news{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.over{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.people{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.career{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.tool{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.query{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.contact{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+.social{
+    width: 100%;
+    height:100px;
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+}
+.company ul{
+ font-size: 20px;  
+ list-style: none;
+ line-height: 35px; 
+}
+/* media query for phone*/
+ @media (max-width: 600px) {
+    .infosys {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrer ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: medium;
+    }
+    .icon ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .ant, .duck {
+        height: 400px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .five {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .four {
+        flex-direction: column;
+        align-items: center;
+    }
+    .four .fourone, .four .fourtwo, .four .fourthree, .four .fourfour {
+        width: 90%;
+        margin-left: 0;
+    }
+    .next {
+        text-align: center;
+    }
+}
+
+/* For medium devices (max width: 1024px) - Tablets */
+/* @media (max-width: 1024px) {
+    .infosys {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrer ul {
+        gap: 15px;
+        font-size: large;
+    }
+    .icon ul {
+        gap: 15px;
+        margin-right: 20px;
+    }
+    .ant, .duck {
+        height: 500px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .five {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .four {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four .fourone, .four .fourtwo, .four .fourthree, .four .fourfour {
+        width: 45%;
+        margin: 10px;
+    }
+/* }   */
+ @media (max-width: 425px) {
+    .infosys {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrer ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: medium;
+    }
+    .icon ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .ant, .duck {
+        height: 400px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .five {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .four {
+        flex-direction: column;
+        align-items: center;
+    }
+    .four .fourone, .four .fourtwo, .four .fourthree, .four .fourfour {
+        width: 90%;
+        margin-left: 0;
+    }
+    .next {
+        text-align: center;
+    }
+} 
+
+/* For tablet devices (max width: 768px) */
+@media (max-width: 768px) {
+    .infosys {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carrer ul {
+        gap: 15px;
+        font-size: large;
+    }
+    .icon ul {
+        gap: 15px;
+        margin-right: 20px;
+    }
+    .ant, .duck {
+        height: 500px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .five {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .four {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .four .fourone, .four .fourtwo, .four .fourthree, .four .fourfour {
+        width: 45%;
+        margin: 10px;
+    }
 }
